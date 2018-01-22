@@ -1,0 +1,125 @@
+@media (max-width: 780px) {
+
+ .header-text, .photo-container, footer, .container-1, .container-2 {
+   padding-left: 18px;
+   padding-right: 18px;
+ }
+
+ .container-1 p, .container-2 p {
+   line-height: normal;
+ }
+
+ .mobile-menu-btn {
+   display: block;
+ }
+
+ .header-container {
+
+   .top-nav {
+     margin-bottom: 80px;
+
+     .nav-a {
+       position: absolute;
+       width: 90%;
+       margin: auto;
+       height: 300px;
+       margin-top: -400px;
+       padding: 20px;
+       top: 100px;
+       background-color: #fff;
+       border-bottom: 1px solid $second-green;
+       text-align: center;
+       z-index: 0;
+
+        a {
+          display: block;
+          padding: 15px;
+        }
+
+     }
+
+     .nav-logo {
+       margin-left: 10px;
+       z-index: 2;
+     }
+   }
+
+   .photo-container {
+     margin-right: 0;
+     height: 300px;
+     width: 300px;
+   }
+
+   .header-text {
+     text-align: center;
+     button {
+       margin-bottom: 50px;
+     }
+   }
+ }
+
+  .container-1 {
+    padding-top: 30px;
+    h2 {
+      margin: 0;
+    }
+
+    .main-text {
+      margin: 0;
+
+      h4 {
+        margin-left: -15px;
+      }
+    }
+
+.personal-plan {
+  padding-bottom: 20px;
+
+    .personal-plan-text {
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    .personal-plan-img {
+      margin-left: -18px;
+      margin-bottom: -23px;
+    }
+  }
+
+.bus-plan {
+    .bus-plan-img {
+      margin-right: -5px;
+    }
+  }
+  }
+
+  .container-2 {
+    .flex-cart-p {
+      height: 274px;
+      width: 285px;
+
+      .image-wrapper {
+        height: 200px;
+        width: 285px;
+      }
+    }
+  }
+
+  footer {
+
+    .form-wrapper {
+      width: 90%;
+      margin: auto;
+
+      form {
+        input {
+          width: 100%;
+        }
+
+        .name {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>websev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalizeV.7.0.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/93f96f3aba.js"></script>
+  </head>
+  <body>
+
+<!--- Header ---->
+    <div class="header-container">
+      <div class="mobile-menu-btn">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
+
+      </div>
+
+      <nav class="top-nav">
+        <div class="nav-logo">
+          <img src="css/images/Websev_logo.png" alt="">
+        </div>
+        <div class="nav-a">
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="flex-wrap">
+
+
+        <div class="header-text">
+          <h1>He. Ik ben Jeffrey.</h1>
+          <h2>Web-developer | designer.<br>
+            Voor een mobile-responsive Website of Webshop neem contact met mij op: </h2>
+          <a href="#contact"><button class="btn">Contact</button></a>
+
+        </div>
+        <div class="photo-container">
+          <img src="css/images/zelf.jpg" alt="">
+        </div>
+      </div> <!-- end flex-wrap -->
+    </div> <!-- end header -->
+
+
+    <button onclick="toTop()" id="to-top-btn"><i class="fa fa-arrow-circle-o-up fa-3x" aria-hidden="true"></i></button>
+<!--- Main content ---->
+<main>
+    <div class="container-1" id="services">
+      <h2><strong>Web</strong> development</h2>
+
+      <div class="main-text">
+        <i><h4>"Pleasure in the job puts perfection in the work."</h4></i>
+        <p>Bij het ontwikkelen van je website kan ik de complete website verzorgen, design en web development. We bespreken je wensen en maken een passende offerte vooraf.</p>
+
+        <p>Buiten maatwerk websites bied ik ook onderhoud aan bestaande websites, mocht je hiermee vastlopen. Een nieuw design of wanneer hij nog niet mobile responsive is. We kunnen samen voor alles een creatieve oplossing zoeken.</p>
+
+        <p>Als ik je website heb gebouwd krijg je altijd ondersteuning achteraf en ben ik altijd beschikbaar voor onderhoud of aanpassingen. Ik zorg er niet alleen voor dat jouw website er modern bij staat en opvalt maar ook klaar is om gevonden te worden op Google.</p>
+      </div>
+
+      <div class="plans">
+        <div class="flex-wrap-reverse personal-plan">
+            <div class="personal-plan-img">
+              <img src="css/images/002-employee.png" alt="">
+            </div>
+            <div class="personal-plan-text">
+              <h3>Personal plan</h3>
+              <p>Ideaal voor starters.<br>Bijv. Portfolio, promotie of blog.</p>
+              <p>vanaf <strong>€ 450,00</strong> exl. btw</p>
+            </div>
+
+        </div>
+      </div>
+      <div class="plans">
+        <div class="flex-wrap bus-plan">
+
+            <div class="bus-plan-text">
+              <h3>Business plan</h3>
+              <p>Perfect voor business.<br>Denk aan Webshop, online trainingen<br> en reserveren.<p>
+              <p>vanaf <strong>€ 850,00</strong> exl. btw</p>
+            </div>
+            <div class="bus-plan-img">
+              <img src="css/images/001-meeting.png" alt="">
+            </div>
+
+        </div>
+      </div>
+
+
+    </div> <!-- end container-1 -->
+
+    <div class="container-2" id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Laatste websites die ik heb gemaakt en onderhoud.</p>
+
+      <div class="flex-wrap">
+        <a href="https://itsmypleasure.nl/" target="_blank">
+          <div class="flex-cart-p">
+            <div class="image-wrapper">
+              <img src="css/images/screencapture-itsmypleasure-nl-1513265466555.png" alt="">
+            </div>
+              <h4>Its my Pleasure</h4>
+              <p>Wordpress development | onderhoud</p>
+          </div>
+        </a>
+        <a href="http://sevingastoffering.nl/index.html" target="_blank">
+          <div class="flex-cart-p">
+            <div class="image-wrapper">
+              <img src="css/images/screencapture-sevingastoffering-nl-1513249410421.png" alt="">
+            </div>
+              <h4>Sevinga Stoffering</h4>
+              <p>Web-design | development</p>
+          </div>
+        </a>
+
+
+
+      </div> <!-- end flex-wrap -->
+
+    </div> <!-- end container-2 -->
+</main>
+
+<footer id="contact">
+  <h2>Contact</h2>
+  <p>Heb je een website en/of webshop nodig, wil je samen werken of heb je een vraag?</p>
+  <div class="form-wrapper">
+    <form class="contactForm" action="send_mail.php" method="post">
+      <input class="name" type="text" id="name" placeholder="Name" required>
+      <input type="text" id="email" placeholder="Email" required>
+      <textarea id="message" rows="8" cols="80" required></textarea>
+      <button class="btn" id="safesubmit" type="submit" name="submit">Send</button>
+    </form>
+  </div>
+  <div class="contact-info">
+    <div class="social">
+      <p>Find me</p>
+      <a href="https://www.facebook.com/profile.php?id=100011632638996"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/j_sevinga/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/JeffreySevinga"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="copyrights">
+    <div class="">
+      <p class="contact-p-s">Email: jeffrey@websev.nl
+      </p>
+
+    </div>
+    <div class="">
+      <p>&copy; 2018 All rights reserved - websev.nl</p>
+    </div>
+
+  </div>
+
+
+</footer>
+
+<script src="js/main.js" charset="utf-8"></script>
+<script src="js/jQuery.js" charset="utf-8"></script>
+<script src="js/mail.js" charset="utf-8"></script>
+  </body>
+</html>
