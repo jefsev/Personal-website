@@ -15,7 +15,7 @@ $(document).ready(function(){
         }).done(function() {
 
            //replace submit button with some text...
-           $('#safesubmit').replaceWith('<i class="fa fa-check-square fa-2x" aria-hidden="true" style="padding-top:15px; color:green;"></i><div><p><strong>Bericht</strong> verzonden, ik neem zo spoedig mogelijk contact met u op.</p></div>');
+           $('#safesubmit').replaceWith('<i class="fa fa-check-square fa-3x" aria-hidden="true" style="padding-top:15px; color:#80ffaa;"></i><div>');
            $('form').find("input[type=text], textarea").val("");
 
         });

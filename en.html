@@ -16,32 +16,29 @@
   </head>
   <body>
 
+    <nav class="top-nav">
+      <div class="mobile-menu-btn">
+        <i class="fa fa-bars" id="open" aria-hidden="true"></i>
+        <i class="fa fa-times" id="close" aria-hidden="true"></i>
+      </div>
+      <div class="nav-logo">
+        <img src="css/images/Websev_logo.png" alt="">
+      </div>
+      <div class="nav-a" id="mobile-nav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
 <!--- Header ---->
     <div class="header-container">
-      <div class="mobile-menu-btn">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-        <i class="fa fa-times" aria-hidden="true"></i>
 
-      </div>
-
-      <nav class="top-nav">
-        <div class="nav-logo">
-          <img src="css/images/Websev_logo.png" alt="">
-        </div>
-        <div class="nav-a">
-          <a href="#services">Services</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
-
-      <a href="index.html"><div class="lang-btn">
+      <a href="/"><div class="lang-btn" id="lang-btn">
         <p>NL</p>
       </div></a>
 
       <div class="flex-wrap">
-
-
         <div class="header-text">
           <h1>Hi. I am Jeffrey.</h1>
           <h2>Web-developer | designer.<br>
@@ -55,8 +52,6 @@
       </div> <!-- end flex-wrap -->
     </div> <!-- end header -->
 
-
-    <button onclick="toTop()" id="to-top-btn"><i class="fa fa-arrow-circle-o-up fa-3x" aria-hidden="true"></i></button>
 <!--- Main content ---->
 <main>
     <div class="container-1" id="services">
@@ -103,37 +98,134 @@
     </div> <!-- end container-1 -->
 
     <div class="container-2" id="portfolio">
+
+      <!-- Portfolio slide in information -->
+
+            <div id="portfolio-item-0EN" class="portfolio-item">
+              <i class="fa fa-times-circle close-btn-portfolio" aria-hidden="true"></i>
+              <div class="portfolio-image">
+                <img src="css/images/screencapture-supernona-nl-1517392333001.png" alt="">
+              </div>
+              <div class="portfolio-text">
+                <h2>supernona.nl</h2>
+                <p>supernona.nl is a e-commerce (webshop) build with Wordpress and Woocommerce. I am the owner of this e-commerce business.<br><br>
+                  The design is clean and focused on highlighting the products. I did the branding and designed the logo.<br><br>
+                  Customers can choose to create an account when they checkout. This gives them acces to all their invoices, and it will remember checkout details for future orders.
+                </p>
+                <h3>Used technologies</h3>
+                <ul>
+                  <li>Wordpress CMS</li>
+                  <li>Woocommerce</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ul>
+                <p>link: <a href="https://supernona.nl/">supernona.nl</a><p>
+              </div>
+            </div>
+
+            <div id="portfolio-item-1EN" class="portfolio-item">
+              <i class="fa fa-times-circle close-btn-portfolio" aria-hidden="true"></i>
+              <div class="portfolio-image">
+                <img src="css/images/screencapture-itsmypleasure-nl-selfpleasure-1517417202426.png" alt="">
+              </div>
+              <div class="portfolio-text">
+                <h2>itsmypleasure.nl</h2>
+                <p>itsmypleasure.nl is a e-learning website which uses Wordpress, Woocommerce and LMS(learndash system) to sell courses.<br><br>
+                  The branding and logo design is done by a designer. I integrated the LMS system so that is fits the design of the website and people can follow their courses online.<br>
+                  When people buy a course they create their account which will contain the bought course for them to follow. They also recieve e-mails about the course with Mailchimp.<br><br>
+                  Together with my wife we run the back-office for this company. This means we handle not only development but also customer support, maintance and administration.
+                </p>
+                <h3>Used technologies</h3>
+                <ul>
+                  <li>Wordpress CMS</li>
+                  <li>Woocommerce</li>
+                  <li>Mailchimp</li>
+                  <li>Learndash LMS (e-learning)</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ul>
+                <p>link: <a href="https://itsmypleasure.nl/">itsmypleasure.nl</a><p>
+              </div>
+            </div>
+
+            <div id="portfolio-item-2EN" class="portfolio-item">
+              <i class="fa fa-times-circle close-btn-portfolio" aria-hidden="true"></i>
+              <div class="portfolio-image">
+                <img src="css/images/screencapture-sevingastoffering-nl-1517558472031.png" alt="">
+              </div>
+              <div class="portfolio-text">
+                <h2>sevingastoffering.nl</h2>
+                <p>sevingastoffering.nl is a company website to inform a customer about services and products that are available.<br><br>
+                  I did the branding and logo design. Its a static website with the ability to send a message with the contact form.
+                </p>
+                <h3>Used technologies</h3>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>jQuery</li>
+                  <li>PHP</li>
+                </ul>
+                <p>link: <a href="http://sevingastoffering.nl/">sevingastoffering.nl</a><p>
+              </div>
+            </div>
+
+            <div id="portfolio-item-3EN" class="portfolio-item">
+              <i class="fa fa-times-circle close-btn-portfolio" aria-hidden="true"></i>
+              <div class="portfolio-image">
+                <img src="css/images/screencapture-localhost-8888-websev-nl-index-html-1517825513385 (1).png" alt="">
+              </div>
+              <div class="portfolio-text">
+                <h2>websev.nl</h2>
+                <p>websev.nl is my own website.<br><br>
+                  this is a one page design,  its fully mobile responsive. I did the logo and design myself. The website uses Javascript to slide in any information about the portfolio items so that you dont have to leave the page.
+                </p>
+                <h3>Used technologies</h3>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>javascript</li>
+                  <li>PHP</li>
+                </ul>
+                <p>link: <a href="https://websev.nl/">websev.nl</a><p>
+              </div>
+            </div>
+
       <h2>Portfolio</h2>
-      <p>Websites i build and maintain.</p>
+      <p>Websites i have build and/or maintain. All sites are fully mobile-responsive.</p>
 
       <div class="flex-wrap">
-        <a href="https://supernona.nl/" target="_blank">
-          <div class="flex-cart-p">
+          <div class="flex-cart-p" id="portfolio-image-0EN">
             <div class="image-wrapper">
               <img src="css/images/screencapture-supernona-nl-1516996480289.png" alt="">
             </div>
               <h4>SuperNona</h4>
               <p>Wordpress e-commerce | founder</p>
           </div>
-        </a>
-        <a href="https://itsmypleasure.nl/" target="_blank">
-          <div class="flex-cart-p">
+
+          <div class="flex-cart-p" id="portfolio-image-1EN">
             <div class="image-wrapper">
               <img src="css/images/screencapture-itsmypleasure-nl-1513265466555.png" alt="">
             </div>
               <h4>Its my Pleasure</h4>
               <p>Wordpress development | maintenance</p>
           </div>
-        </a>
-        <a href="http://sevingastoffering.nl/index.html" target="_blank">
-          <div class="flex-cart-p">
+
+
+          <div class="flex-cart-p" id="portfolio-image-2EN">
             <div class="image-wrapper">
               <img src="css/images/screencapture-sevingastoffering-nl-1513249410421.png" alt="">
             </div>
               <h4>Sevinga Stoffering</h4>
               <p>Web-design | development</p>
           </div>
-        </a>
+
+        <div class="flex-cart-p" id="portfolio-image-3EN">
+          <div class="image-wrapper">
+            <img src="css/images/websev-thumbnail.png" alt="">
+          </div>
+            <h4>websev</h4>
+            <p>Web-design | development</p>
+        </div>
 
 
 
@@ -179,7 +271,6 @@
 </footer>
 
 <script src="js/main.js" charset="utf-8"></script>
-<script src="js/jQuery.js" charset="utf-8"></script>
 <script src="js/mail.js" charset="utf-8"></script>
   </body>
 </html>
