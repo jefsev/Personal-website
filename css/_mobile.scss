@@ -1,0 +1,185 @@
+@media (max-width: 1400px) {
+
+  html,body {
+    height: 100%;
+    overflow-x: hidden !important;
+    width: 100%;
+    position: fixed;
+  }
+
+  .container-2 {
+    .portfolio-item {
+      width: 83%;
+      padding: 45px 20px 20px 20px;
+
+      .portfolio-image {
+        width: 55%;
+      }
+      .portfolio-text{
+        max-width: 445px;
+        margin-left: 35px;
+
+      }
+    }
+  }
+  }
+
+@media (max-width: 1200px) {
+
+
+  .container-2 {
+    .portfolio-item {
+      width: 90%;
+      .portfolio-text{
+        max-width: 350px;
+        margin-left: 25px;
+
+      }
+    }
+  }
+}
+
+
+@media (max-width: 780px) {
+
+ .header-text, .photo-container, footer, .container-1, .container-2 {
+   padding-left: 18px;
+   padding-right: 18px;
+ }
+
+ .container-1 p, .container-2 p {
+   line-height: normal;
+ }
+
+ .mobile-menu-btn {
+   display: block;
+ }
+
+
+
+   .top-nav {
+     margin-bottom: 80px;
+
+     .nav-a {
+       position: absolute;
+       height: 300px;
+       width: 100%;
+       margin-left: -1000px;
+       padding: 20px;
+       top: 75px;
+       background-color: #fff;
+       border-bottom: 1px solid $second-green;
+       text-align: center;
+       z-index: 0;
+
+        a {
+          display: block;
+          padding: 15px;
+        }
+
+     }
+
+     .nav-logo {
+       margin-left: 10px;
+       z-index: 2;
+     }
+   }
+
+.header-container {
+
+   .photo-container {
+     margin-right: 0;
+     margin-left: 0;
+     height: 300px;
+     width: 300px;
+   }
+
+   .header-text {
+     text-align: center;
+     button {
+       margin-bottom: 50px;
+     }
+   }
+ }
+
+  .container-1 {
+    padding-top: 30px;
+    h2 {
+      margin: 0;
+    }
+
+    .main-text {
+      margin: 0;
+
+      h4 {
+        margin-left: -15px;
+      }
+    }
+
+.personal-plan {
+  padding-bottom: 20px;
+
+    .personal-plan-text {
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    .personal-plan-img {
+      margin-left: -18px;
+      margin-bottom: -23px;
+    }
+  }
+
+.bus-plan {
+    .bus-plan-img {
+      margin-right: -5px;
+    }
+  }
+  }
+
+
+  .container-2 {
+    .portfolio-item {
+      width: 95%;
+
+      .portfolio-image {
+        width: 100%;
+      }
+
+      .portfolio-text{
+        max-width: 400px;
+        margin-top: 35px;
+        padding: 5px;
+      }
+    }
+
+
+    .flex-cart-p {
+      height: 310px;
+      width: 290px;
+
+      .image-wrapper {
+        height: 220px;
+        width: 290px;
+      }
+    }
+  }
+
+  footer {
+
+    .form-wrapper {
+      width: 90%;
+      margin: auto;
+
+      form {
+        input {
+          width: 100%;
+        }
+
+        .name {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
